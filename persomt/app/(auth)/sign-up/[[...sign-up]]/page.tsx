@@ -1,8 +1,5 @@
-const SignUnPage = () => {
-    return (
-        <div>
-        <h1>Sign Up page</h1>
-        
-        </div>
-    );
+import { SignUp } from '@clerk/nextjs'
+
+export default function Page() {
+  return <SignUp />
 }

@@ -3,6 +3,6 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <p>This is an authenticated route</p>
+    <p className="bg-slate-600">This is an authenticated route</p>
   );
 }
